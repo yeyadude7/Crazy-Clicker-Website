@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.flex_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100px
+}
+
+.flex_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.my_button {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: lightcoral;
+    text-align: center;
+    font-size: 48px;
+    cursor: pointer;
+
+    transition-duration: 0.5s;
+    display: block;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 8px solid rgb(113, 3, 3);
+}
+
+.my_button:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+    background-color: red;
+}
